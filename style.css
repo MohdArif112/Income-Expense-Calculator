@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(12, 12, 63);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.maincon{
+    height: 50%;
+    background-color: antiquewhite;
+    padding: 50px;
+    border-radius: 12px;
+    
+}
+.btn{
+   padding: 10px;
+   border-radius: 50px;
+   font-size:25px
+}
+.btn:hover{
+    background-color: rgb(112, 30, 112);
+}
+
+.container{
+    margin-top: 25px;
+}
+
+.list{
+    margin-top:25px;
+}
