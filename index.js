@@ -16,17 +16,27 @@ function addIncome(){
     let incBtn= document.createElement("button");
     let incDiv= document.createElement("div");
     incDiv.className="incomeDiv";
+    
+    input1.style.margin="7px";
+    input2.style.margin="7px";
+    input1.placeholder="Income source";
+    input2.placeholder="Amount ";
 
+    input1.style.height="20px";
+    input2.style.height="20px";
 
     incDiv.appendChild(input1);
     incDiv.appendChild(input2);
     incDiv.appendChild(incBtn);
-    console.log("hey")
+    // console.log("hey")
     container.appendChild(incDiv);
 
      
 
     incBtn.innerText="add";
+    incBtn.style.padding="10px";
+    incBtn.style.margin="5px";
+    incBtn.style.borderRadius="10px";
     incBtn.addEventListener("click",()=>{
     
     val1= input1.value;
@@ -46,6 +56,15 @@ function addExpense(){
     let incBtn= document.createElement("button");
     let incDiv= document.createElement("div");
 
+    input1.style.margin="7px";
+    input2.style.margin="7px";
+    input1.style.height="20px";
+    input2.style.height="20px";
+
+    input1.placeholder="Expense source";
+    input2.placeholder="Amount ";
+
+
     incDiv.appendChild(input1);
     incDiv.appendChild(input2);
     incDiv.appendChild(incBtn);
@@ -53,6 +72,9 @@ function addExpense(){
     container.appendChild(incDiv);
 
     incBtn.innerText="add";
+    incBtn.style.padding="10px";
+    incBtn.style.margin="5px";
+    incBtn.style.borderRadius="10px";
     incBtn.addEventListener("click",function(){
          val3= input1.value;
          val4= input2.value;
@@ -73,6 +95,7 @@ function display(){
 
     let displayExpense= document.createElement("div")
     displayExpense.innerText="Total Expense = " + expense;
+    
     listdiv.appendChild(displayExpense);
 
     let saving = document.createElement("h3");
