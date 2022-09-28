@@ -42,7 +42,7 @@ function addIncome(){
     val1= input1.value;
      val2= input2.value;
      income+=Number(val2);
-        alert("You have added "+val1 +" for "+ val2);
+        alert("You have added "+val2 +" for "+ val1);
        
     });
 
@@ -79,7 +79,7 @@ function addExpense(){
          val3= input1.value;
          val4= input2.value;
          expense+=Number(val4);
-        alert("You have added "+val3 +" for "+ val4);
+        alert("You have added "+val4 +" for "+ val3);
         
 
         
